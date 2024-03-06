@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Home</h1>
+    <h1>Home ruta protegida</h1>
     <p>{{ userStore.userData?.email }}</p>
 
     <form @submit.prevent="handleSutmit">
